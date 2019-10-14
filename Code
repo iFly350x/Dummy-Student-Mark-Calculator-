@@ -12,7 +12,7 @@ def marks(name, age, **marks):
     else:
         print("Wrong Password.")
 
-if id == "Ahmed" and password == "1543":
+if id == "Jake" and password == "1543":
     marks("Ahmed", "16", Math=95, Bio=75, English=85)
 else:
     print("Invalid Login Creditentials")
