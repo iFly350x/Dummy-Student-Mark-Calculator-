@@ -1,0 +1,18 @@
+#Student Marks Calculator
+
+id = input("Enter Your Name:")
+password = input("Enter Password:")
+
+def marks(name, age, **marks):
+    print('name:', name)
+    print('Age:', age)
+    print('Marks:', marks)
+    if password == 1234:
+        print("Logging In...")
+    else:
+        print("Wrong Password.")
+
+if id == "Ahmed" and password == "1543":
+    marks("Ahmed", "16", Math=95, Bio=75, English=85)
+else:
+    print("Invalid Login Creditentials")
