@@ -14,7 +14,7 @@ def main():
         else:
             print("Wrong Password.")
 
-    if id == "Jake" and password == "1543":
+    if id == "Jake" and password == "1234":
         marks("Jake", "45", Math=95, Bio=75, English=85)
     else:
         print("Invalid Login Creditentials")
