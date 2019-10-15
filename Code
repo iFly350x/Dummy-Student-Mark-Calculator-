@@ -1,25 +1,59 @@
 #Student Marks Calculator
 
-def main():
 
-    id = input("Enter Your Name:")
-    password = input("Enter Password:")
+id = input("Enter Your Name:")
+password = input("Enter Password:")
 
-    def marks(name, age, **marks):
-        print('name:', name)
-        print('Age:', age)
-        print('Marks:', marks)
-        if password == 1234:
-            print("Logging In...")
-        else:
-            print("Wrong Password.")
-
-    if id == "Jake" and password == "1234":
-        marks("Jake", "45", Math=95, Bio=75, English=85)
+def marks(name, age, **marks):
+    print('name:', name)
+    print('Age:', age)
+    print('Marks:', marks)
+    if password == 1234:
+        print("Logging In...")
     else:
-        print("Invalid Login Creditentials")
-    restart = input("Do You Want To Retry?:")
+        print("Wrong Password.")
+
+if id == "Jake" and password == "1234":
+    marks("Jake", "45", Math=95, Bio=75, English=85)
+else:
+    print("Invalid Login Creditentials")
+  
+  #restart = input("Do You Want To Retry?:")
     if restart == "Yes":
-      main()
-    else 
-      exit()    
+      
+    els   
+
+------------------------------------Wrong-----------------
+#def reboot():
+  reboot():
+id = input("Enter Your Name:")
+password = input("Enter Password:")
+
+def marks(name, age, **marks):
+    print('name:', name)
+    print('Age:', age)
+    print('Marks:', marks)
+    if password == 1234:
+        print("Logging In...")
+    else:
+        print("Wrong Password.")
+
+if id == "Jake" and password == "1234":
+    marks("Jake", "45", Math=95, Bio=75, English=85)
+else:
+    print("Invalid Login Creditentials")
+    
+    print('name:', name)
+    print('Age:', age)
+    print('Marks:', marks)
+    if password == 1234:
+        print("Logging In...")
+    else:
+        print("Wrong Password.")
+
+    
+restart = input("Do You Want To Retry?:")
+if restart == "Yes":
+      reboot()
+else: 
+      exit()
